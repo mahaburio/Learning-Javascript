@@ -23,19 +23,19 @@ let x = "Hello everyone; \nThis is Mahabur Rahman ";
 
 let y = "I am Bangladeshi";
 
-// let z = x.concat(y);
+let z = x.concat(y);
 
-// let r = z.replace(' ','')
+let r = z.replace(' ','')
 
-// let s = y.substring(5)
+let s = y.substring(5)
 
-// let sp = y.split(' ')
+let sp = y.split(' ')
 
-// let rep = y.replaceAll(" ","");
-// let toLrep = rep.toLowerCase()
+let rep = y.replaceAll(" ","");
+let toLrep = rep.toLowerCase()
 
-// for (let i = 0; i < rep.length; i++) {
-//   console.log(rep[i]);
-// }
+for (let i = 0; i < rep.length; i++) {
+  console.log(rep[i]);
+}
 
-// console.log(toLrep.at(3));
+console.log(toLrep.at(3));
