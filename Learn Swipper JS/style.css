@@ -19,8 +19,6 @@ html, body{
 .container .swiper{
   height: 100%;
   width: 100%;
-  /* cursor: pointer; */
-  /* border: 2px solid blue; */
 }
 
 .container .swiper .swiper-wrapper .swiper-slide img{
@@ -30,3 +28,41 @@ html, body{
 
 }
 
+
+.second{
+  height: 500px;
+  width: 500px;
+  background-color: rgb(114, 102, 56);
+}
+
+.second .swiper{
+  height: 100%;
+  width: 100%;
+}
+
+.second .swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second .swiper .swiper-slide{
+  height: 100%;
+  width: 100%;
+
+}
+
+.second .swiper .swiper-slide:nth-child(1){
+  background-color: red;
+}
+
+.second .swiper .swiper-slide:nth-child(2){
+  background-color: blue;
+}
+
+.second .swiper .swiper-slide:nth-child(3){
+  background-color: yellow;
+}
+
+.second .swiper .swiper-slide:nth-child(4){
+  background-color: rgb(72, 255, 0);
+}
