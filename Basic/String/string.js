@@ -18,6 +18,7 @@
   8. replace() =============== Kono string ar moddho theke kono kichu k soria onno kichu add kora 
       TODO: replace(' ','') ==== It is a nice trick (Ata dia kono string r moddho theke sob space gulo k out kore just word gulo k bachai kora jai)
  */
+/* 
 
 let x = "Hello everyone; \nThis is Mahabur Rahman ";
 
@@ -39,3 +40,25 @@ for (let i = 0; i < rep.length; i++) {
 }
 
 console.log(toLrep.at(3));
+
+*/
+
+let str = "Rahim";
+let str2 = "    Karim";
+
+// let constr = str.concat(str2).toLowerCase();
+
+
+// console.log(constr.replaceAll(' ',''));
+
+// let strArr = str.split()
+
+// console.log(strArr);
+
+// console.log(str.charAt(0));
+
+// console.log(str2.at(2));
+
+// console.log(str.concat(',', str2));
+
+console.log(str2.trimStart());
